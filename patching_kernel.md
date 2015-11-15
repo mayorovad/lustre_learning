@@ -4,7 +4,7 @@
 
 ####Подготовка к установке
 
-Установку выполнять **не из под рута**
+Установку выполнять **не из-под рута**
 
 Добавляем репозиторий EPEL 6.8 (Extra Packages for Enterprise Linux). RPM можно загрузить [отсюда](http://mirror.logol.ru/epel//6/x86_64/epel-release-6-8.noarch.rpm) 
 ```
@@ -107,3 +107,5 @@ EXTRAVERSION = .573.8.1.el6_orion_lustre
 # /sbin/new-kernel-pkg --package kernel --mkinitrd --dracut --depmod --install 2.6.32.573.8.1.el6_orion_lustre
 ```
 Делаем `reboot`, выполняем `uname -r`, видим, что ядро у нас теперь `2.6.32.573.8.1.el6_orion_lustre`.
+
+О том, как устанавливать и собирать пакеты `lustre` для сервера и клиента, можно прочитать в этом [отчете](./building_lustre.md) 
