@@ -4,7 +4,7 @@
 
 ####Подготовка к установке
 
-Установку выполнять **не из-под рута**
+Установку из-под рута **не выполнять**
 
 Добавляем репозиторий EPEL 6.8 (Extra Packages for Enterprise Linux). RPM можно загрузить [отсюда](http://mirror.logol.ru/epel//6/x86_64/epel-release-6-8.noarch.rpm) 
 ```

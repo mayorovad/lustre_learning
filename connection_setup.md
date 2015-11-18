@@ -104,7 +104,7 @@ options lnet accept=all
 ```
 # mkfs.lustre --mdt --mgs --index=0 --fsname=orionfs /dev/sdb
 # mount -t lustre /dev/sdb /mnt/mdt
-# mkfs.lustre --ost --index=1 --mgsnode=localhost@tcp --fsname=orionfs /dev/sdc
+# mkfs.lustre --ost --index=0 --mgsnode=localhost@tcp0 --fsname=orionfs /dev/sdc
 # mount -t lustre /dev/sdc /mnt/ost1
 ```
 
